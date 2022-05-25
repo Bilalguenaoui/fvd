@@ -32,10 +32,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1 Ik wil werken aan de animatie before & after
+  - punt 2 Ik wil tekst leren bewegen, vervormen, verkleuren, vergoten etc
+  - punt 3 Ik wil ook leren mwerken met light and darkmode
  
 </details>
 
@@ -53,6 +52,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
+  
+  Het werken met de animaties en precentages daarvan ging erg goed. Ik heb ook veel geleerd bij het maken van costum properties voor tekst grote en kleur. Dit wist ik namelijk voorheen nog niet.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
 
