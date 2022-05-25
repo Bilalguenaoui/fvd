@@ -3,14 +3,6 @@
 /*********/
 /* FONTS */
 /*********/
-@font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
 
 
 
@@ -38,7 +30,25 @@ button, summary {
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--color-blauw:#0080ff;
+	--color-geel:#ffee02;
+	--color-zwart:#000000;
+	--color-groen:#409b00;
+	--color-rood:#ff0000;
 }
+
+/* De dark mode optie */
+@media (prefers-color-scheme:dark) {
+	:root {
+	  --color-text:rgb(151, 9, 176);
+	  --color-background:rgb(121, 91, 124);
+	  --color-blauw:#033f7c;
+	  --color-geel:#8f8604;
+	  --color-zwart:#000000;
+	  --color-groen:#285d02;
+	  --color-rood:#7e0505;
+	}
+  }
 
 
 
@@ -48,10 +58,393 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:eenfont, sans-serif;
+  font-family: aquarius, sans-serif;
   color:var(--color-text);
   background-color:var(--color-background);
 }
 
-/* jouw code */
 
+
+/* jouw code */
+section {
+	position:relative;
+	aspect-ratio:1/1;
+	display:grid;
+	place-items:center;
+	
+  }
+
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	margin:0;
+	font-weight:normal;
+	text-transform:uppercase;
+	display:flex;
+	gap:.1em;
+	font-size: 5em;
+	color:var(--color-zwart);
+}
+
+
+
+
+/***********************************************************************/
+
+
+
+
+/* A die springt Hier roep ik de eerste letter A aan in de span ik
+Dan voeg ik daarn een adimatie aan toe met display block maak ik het block van 
+de span zichtbaar een geef ik het een kleur en vorm */
+section > h1 > span:nth-of-type(1) {
+	animation-name:letterSpringt;
+	 animation-duration:1.9s;
+	 animation-iteration-count:3;
+	 
+	 display:block;
+
+	 width:1em;
+	 height:1em;
+	 
+
+	 /* background-color: red; */
+	 border-radius:50%;
+	 line-height: 1em;
+	 display:grid;
+	 place-items: center;
+}
+   	/*hier laat ik de animatie bewegen door de span met de letter daarin op een bepaald moment te laten bewegen*/
+
+   @keyframes letterSpringt {
+	 0% {
+	   transform:translateY(0);
+	   animation-timing-function:ease-out;
+	 }
+	 50%{
+		transform:translate(0.6em,-300%);	 
+		animation-timing-function:ease-in;
+		animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+	 }
+
+	 60% {
+		background-color:var(--color-blauw);
+		color:transparent;
+	}
+
+	 100% {
+	   transform:translateY(0);
+	 }
+   }
+   
+
+
+/* Q die springt */
+section > h1 > span:nth-of-type(2) {
+	animation-name:letterSpringt2;
+	 animation-duration:1.9s;
+	 animation-iteration-count:3;
+	 
+	 display:block;
+
+	 width:1em;
+	 height:1em;
+	 
+
+	 /* background-color: red; */
+	 border-radius:50%;
+	 line-height: 1em;
+
+	 display:grid;
+	 place-items: center;
+}
+   
+   @keyframes letterSpringt2 {
+	 0% {
+	   transform:translateY(0);
+	   animation-timing-function:ease-out;
+	 }
+	 50%{
+	   transform:translate(-0.5em,-300%);
+	   animation-timing-function:ease-in;
+	   color:var(--color-blauw);
+		 animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+
+	 }
+
+	 60% {
+		background-color:var(--color-blauw);
+		color:transparent;
+
+	}
+
+	 100% {
+	   transform:translateY(0);
+	 }
+   }
+
+
+
+
+
+
+   
+   /* U die springt */
+section > h1 > span:nth-of-type(3) {
+	animation-name:letterSpringt3;
+	 animation-duration:1.9s;
+	 animation-iteration-count:3;
+	 
+	 display:block;
+	 width:1em;
+	 height:1em;
+	 
+
+	 border-radius:50%;
+	 line-height: 1em;
+
+	 display:grid;
+	 place-items: center;
+}
+   
+   @keyframes letterSpringt3 {
+	 0% {
+	   transform:translateY(0);
+	   animation-timing-function:ease-out;
+	 }
+	 50%{
+	   transform:translateY(-200%);
+	   animation-timing-function:ease-in;
+	   color:transparent;
+		 animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+
+	 }
+
+	 60% {
+		background-color:var(--color-geel);
+		color:transparent;
+	}
+
+	 100% {
+	   transform:translateY(0);
+	 }
+   }
+   
+
+
+
+
+
+ /* A die springt */
+ section > h1 > span:nth-of-type(4) {
+	animation-name:letterSpringt4;
+	 animation-duration:1.9s;
+	 animation-iteration-count:3;
+	 
+	 display:block;
+	 width:1em;
+	 height:1em;
+	 
+	 border-radius:50%;
+	 line-height: 1em;
+	
+	 display:grid;
+	 place-items: center;
+}
+		 
+	 @keyframes letterSpringt4 {
+		 0% {
+			 transform:translateY(0);
+			 animation-timing-function:ease-out;
+		 }
+		 50%{
+			 transform:translate(0.55em,-300%);
+			 animation-timing-function:ease-in;
+			 color:var(--color-zwart);
+		 	animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+		 }
+	 
+		60% {
+			background-color:var(--color-zwart);
+		 }
+		 100% {
+			 transform:translateY(0);
+		 }
+	 }
+
+
+
+
+
+
+   /* R die springt */
+	 section > h1 > span:nth-of-type(5) {
+		animation-name:letterSpringt5;
+		 animation-duration:1.9s;
+		 animation-iteration-count:3;
+		 
+		 display:block;
+		 width:1em;
+		 height:1em;
+		 
+	
+		 border-radius:50%;
+		 line-height: 1em;
+	
+		 display:grid;
+		 place-items: center;
+		 }
+		 
+		 @keyframes letterSpringt5 {
+		 0% {
+			 transform:translateY(0);
+			 animation-timing-function:ease-out;
+		 }
+		 50%{
+			transform:translate(-0.55em,-300%);
+			 animation-timing-function:ease-in;
+			 color:var(--color-zwart);
+			 animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+
+		 }
+		 60% {
+			background-color:var(--color-zwart);
+		 }
+		 100% {
+			 transform:translateY(0);
+		 }
+		 }
+
+
+
+
+
+
+   /* I die springt */
+	 section > h1 > span:nth-of-type(6) {
+		animation-name:letterSpringt6;
+		 animation-duration:1.9s;
+		 animation-iteration-count:3;
+		 
+		 display:block;
+		 width:1em;
+		 height:1em;
+		 
+	
+		 border-radius:50%;
+		 line-height: 1em;
+	
+		 display:grid;
+		 place-items: center;
+		 }
+		 
+		 @keyframes letterSpringt6 {
+		 0% {
+			 transform:translateY(0);
+			 animation-timing-function:ease-out;
+		 }
+		 50%{
+			 transform:translateY(-200%);
+			 animation-timing-function:ease-in;
+			 color:var(--color-groen);
+			 animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+
+		 }
+
+		 60% {
+			background-color:var(--color-groen);
+		 }
+
+		 100% {
+			 transform:translateY(0);
+		 }
+		 }
+
+
+
+
+
+
+   /* U die springt */
+	 section > h1 > span:nth-of-type(7) {
+		animation-name:letterSpringt7;
+		 animation-duration:1.9s;
+		 animation-iteration-count:3;
+		 
+		 display:block;
+		 width:1em;
+		 height:1em;
+		 
+	
+		 border-radius:50%;
+		 line-height: 1em;
+	
+		 display:grid;
+		 place-items: center;
+		 }
+		 
+		 @keyframes letterSpringt7 {
+		 0% {
+			 transform:translateY(0);
+			 animation-timing-function:ease-out;
+		 }
+		 50%{
+			transform:translate(0.5em,-300%);
+			 animation-timing-function:ease-in;
+			 color:var(--color-rood);
+			 animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+
+		 }
+
+		 60% {
+			background-color:var(--color-rood);
+		 }
+
+		 100% {
+			 transform:translateY(0);
+		 }
+		 }
+
+
+
+
+
+   /* S die springt */
+	 section > h1 > span:nth-of-type(8) {
+		animation-name:letterSpringt8;
+		 animation-duration:1.9s;
+		 animation-iteration-count:3;
+		 
+		 display:block;
+		 width:1em;
+		 height:1em;
+		 
+	
+		 border-radius:50%;
+		 line-height: 1em;
+	
+		 display:grid;
+		 place-items: center;
+		 }
+		 
+		 @keyframes letterSpringt8 {
+		 0% {
+			 transform:translateY(0);
+			 animation-timing-function:ease-out;
+		 }
+		 50%{
+			transform:translate(-0.6em,-300%);
+			 animation-timing-function:ease-in;
+			 color:var(--color-rood);
+			 animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+
+		 }
+
+		 60% {
+			background-color:var(--color-rood);
+		 }
+
+		 100% {
+			 transform:translateY(0);
+		 }
+	 }
