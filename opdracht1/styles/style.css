@@ -35,6 +35,8 @@ button, summary {
 	--color-zwart:#000000;
 	--color-groen:#409b00;
 	--color-rood:#ff0000;
+
+	--font-size-h1:5em;
 }
 
 /* De dark mode optie */
@@ -82,7 +84,7 @@ h1 {
 	text-transform:uppercase;
 	display:flex;
 	gap:.1em;
-	font-size: 5em;
+	font-size: var(--font-size-h1);
 	color:var(--color-zwart);
 }
 
@@ -140,7 +142,7 @@ section > h1 > span:nth-of-type(1) {
 
 
 /* Q die springt */
-section > h1 > span:nth-of-type(2) {
+ h1 > span:nth-of-type(2) {
 	animation-name:letterSpringt2;
 	 animation-duration:1.9s;
 	 animation-iteration-count:3;
@@ -190,7 +192,7 @@ section > h1 > span:nth-of-type(2) {
 
    
    /* U die springt */
-section > h1 > span:nth-of-type(3) {
+ h1 > span:nth-of-type(3) {
 	animation-name:letterSpringt3;
 	 animation-duration:1.9s;
 	 animation-iteration-count:3;
@@ -236,7 +238,7 @@ section > h1 > span:nth-of-type(3) {
 
 
  /* A die springt */
- section > h1 > span:nth-of-type(4) {
+  h1 > span:nth-of-type(4) {
 	animation-name:letterSpringt4;
 	 animation-duration:1.9s;
 	 animation-iteration-count:3;
@@ -278,7 +280,7 @@ section > h1 > span:nth-of-type(3) {
 
 
    /* R die springt */
-	 section > h1 > span:nth-of-type(5) {
+	 h1 > span:nth-of-type(5) {
 		animation-name:letterSpringt5;
 		 animation-duration:1.9s;
 		 animation-iteration-count:3;
@@ -321,7 +323,7 @@ section > h1 > span:nth-of-type(3) {
 
 
    /* I die springt */
-	 section > h1 > span:nth-of-type(6) {
+	 h1 > span:nth-of-type(6) {
 		animation-name:letterSpringt6;
 		 animation-duration:1.9s;
 		 animation-iteration-count:3;
@@ -366,7 +368,7 @@ section > h1 > span:nth-of-type(3) {
 
 
    /* U die springt */
-	 section > h1 > span:nth-of-type(7) {
+	 h1 > span:nth-of-type(7) {
 		animation-name:letterSpringt7;
 		 animation-duration:1.9s;
 		 animation-iteration-count:3;
@@ -410,7 +412,7 @@ section > h1 > span:nth-of-type(3) {
 
 
    /* S die springt */
-	 section > h1 > span:nth-of-type(8) {
+	 h1 > span:nth-of-type(8) {
 		animation-name:letterSpringt8;
 		 animation-duration:1.9s;
 		 animation-iteration-count:3;
