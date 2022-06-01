@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Het werken met de animaties en precentages daarvan ging erg goed. Ik heb ook veel geleerd bij het maken van costum properties voor tekst grote en kleur. Dit wist ik namelijk voorheen nog niet.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/procenten.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -74,7 +74,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je ontwerp:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
+  <img src="readme-images/plaatje_opdracht_2.jpg" width="375px" alt="ontwerp opdracht 2">
+  <img src="readme-images/telefoon.jpg" width="375px" alt="ontwerp opdracht 2">
 
 
   ### Je ambitie: 
