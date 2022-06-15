@@ -80,10 +80,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik zou heb als doel dat ik wil leren hoe ik in ene <ul> <li> kan dragen en dropen in een andere <ul> <li>.
+  - Ik heb als tweede doel dat ik wil leren en begrijpen hoe ik niet altijd alles hoef te ontwerpen in illustrator maar dat ik sommige doen ook met code kan doormiddel van CSS. Ook heb ik ervaren dat dit soms nog beter werkt dan met AI
+  - Als derde doel wil ik snappen hoe ik de list items ook ergens aan kan toevoegen doormiddel van de plus en min teken.
 </details>
 
 
