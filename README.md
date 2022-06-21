@@ -97,23 +97,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Bij mijn <ul> kwamen de gekozen smaken niet te voorschijn. Na een tijdje het zelf geprobeerd op te lossen heb ik de docent om hulp gevraagd.
+  <img src="readme-images/oplossing12.jpg" width="375px" alt="ontwerp opdracht 2">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Het bleek dat in de javascript er een linkje misten
+  <img src="readme-images/oplossing2.jpg" width="375px" alt="ontwerp opdracht 2">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Wat voor mij ook lastig was was gebruik maken van mediaqeury's. De ijsbeer wilde ik laten veranderen met verschillende scherm grotes. Zo heb je op een klein scherm alleen de ijsbeer hoofd en op groot de scherm de hele ijsbeer.
+  <img src="readme-images/deel_2.jpg" width="375px" alt="ontwerp opdracht 2">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+Ik riep alleen de <li> aan in de <ul>, maar ik moest eigenlijk de hele <ul> aan roepen zodat de hele afbeelding veranderd
+  <img src="readme-images/deel_2_2.jpg" width="375px" alt="ontwerp opdracht 2">
 
 
   ### Bevinding 3:
-  ...
+  Deze week ben ik er achter gekomen dat je op chrome geen muziek automatisch mag afspelen als iemand je website bezoekt. Nu ben ik aan het kijken of ik mijn audio kan koppelen aan een actie zidat die dan afspeeld en je een ijs ijscoman liedje hoort.
+  
+  
+  ### Bevinding 4:
+Bij de gekozen smaken	ul:nth-of-type(2) wordt de gekozen smaak een bolletje. Bij die bolletje wordt de afbeelding niet helemaalrond en blijft er een stuk grijs aan de rechter kant. Dit is iets wat ik nog moet zien op te lossen.
+   <img src="readme-images/bevinding_4.jpg" width="375px" alt="ontwerp opdracht 2">
+
+  
+  ### Bevinding 5:
+  Na het testen is het mij ook opgevallen dat als er veel smaken worden gekozen in de smaken <ul> dat de smaak bolletjes wat kleinder worden geperst.
+     <img src="readme-images/bevinding_5.jpg" width="375px" alt="ontwerp opdracht 2">
+ 
 </details>
 
 
